@@ -22,7 +22,7 @@ const AboutProduct = () => {
           Welcome to Raunak's Maximum City
         </p>
       </div>
-      <div className="flex py-16 justify-around text-white">
+      <div className="md:flex xxs:flex xxs:flex-col-reverse md:flex-row py-16 justify-around text-white">
         <div className="w-[50%] flex flex-col justify-between">
           <p>
             Raunak Group, a prominent real estate company, has meticulously
@@ -104,7 +104,7 @@ const AboutProduct = () => {
           <span className="mt-4 w-[60%] text-center">Possession July 2027</span>
         </p>
       </div>
-      <div className="flex p-16">
+      <div className="sm:flex sm:flex-row xxs:flex xxs:flex-col p-16">
         <div className="flex-1">
           <h1 className="font-bold text-center bg-gradient-to-r from-custom-color3 via-custom-color2 to-custom-color3 bg-clip-text text-transparent leading-[50px] xxs:w-auto  text-2xl">
             Configuration

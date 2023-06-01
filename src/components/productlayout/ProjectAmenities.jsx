@@ -15,7 +15,7 @@ const ProjectAmenities = () => {
         <h1 className="text-[#503E1D] font-bold py-6 text-[26px] font-lato text-center">
           Project Amenities
         </h1>
-        <div className="flex justify-around pb-10 items-center">
+        <div className="md:flex md:flex-row md:justify-around pb-10 md:items-center xxs:flex xxs:flex-col">
           <p className="text-center">
             <img src={home} alt="" />
             <span>Gym</span>

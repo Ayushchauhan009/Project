@@ -13,7 +13,7 @@ const Gallery = () => {
       <h1 className="font-bold text-center bg-gradient-to-r from-custom-color3 via-custom-color2 to-custom-color3 bg-clip-text text-transparent leading-[50px] xxs:w-auto text-3xl">
         Gallery
       </h1>
-      <div class="grid grid-cols-1 p-16 md:grid-cols-1 gap-4">
+      <div class="grid grid-cols-1 p-16 md:grid-cols-1 xxs:grid-cols-1 gap-4">
         <div class="md:col-span-4">
           <img src={photo1} alt="Image 1" />
         </div>
