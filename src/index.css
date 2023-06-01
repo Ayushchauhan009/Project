@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.button-gradient {
+    background: #121A37;
+    -webkit-background-clip: #121A37;
+    -webkit-text-fill-color: #fff;
+    border-image: linear-gradient(260deg, #C59E5E 4%, #AE874E 32.7%, #C59E5E 99.17%);
+    border-image-slice: 4;
+  }
+
+  .bg-gradient-custom {
+    background: linear-gradient(90deg, #916A3B 2.69%, #F4D092 51.65%, #916A3B 100%);
+  }
+
+  .blend-multiply {
+    mix-blend-mode: multiply;
+  }
+  
